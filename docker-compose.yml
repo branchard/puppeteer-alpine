@@ -1,0 +1,6 @@
+services:
+  puppeteer:
+    build: ./
+    command: ["/bin/sh", "-c", "sudo groupmod -g $$(stat -c '%g' /app) app && sudo usermod -u $$(stat -c '%u' /app) -g $$(stat -c '%g' /app) app && sleep infinty"]
+    volumes:
+      - ./app:/app

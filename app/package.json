@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer-alpine",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Just an experimental Alpine Docker container for puppeteer",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branchard/puppeteer-alpine.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "alpine"
+  ],
+  "author": "branchard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/branchard/puppeteer-alpine/issues"
+  },
+  "homepage": "https://github.com/branchard/puppeteer-alpine#readme",
+  "dependencies": {
+    "puppeteer-core": "^8.0.0"
+  }
+}
